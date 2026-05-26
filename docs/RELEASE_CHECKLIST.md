@@ -14,8 +14,11 @@ Checked on 2026-05-26:
 - [x] Live trading docs require explicit opt-in.
 - [x] Secret-like filename scan found no `.env`, wallet, key, secret, mnemonic, or seed files outside `node_modules`.
 - [x] `INJECTIVE_MCP_COMMAND` / `INJECTIVE_MCP_ARGS` are not configured in the current Codex process, so no real Injective MCP/testnet action was attempted.
-- [ ] Public URLs are still placeholders until public repo/demo approval.
-- [ ] External actions are still blocked on user approval.
+- [x] Public GitHub URL and working public demo URL are filled in.
+- [x] User approved public repo creation and public demo.
+- [x] X launch is explicitly human-run; Codex did not post or schedule.
+- [x] Live order testing remains disabled by user request.
+- [ ] Injective testnet registration remains blocked on user wallet/testnet setup and explicit later confirmation.
 
 ## Local
 
@@ -30,16 +33,16 @@ Checked on 2026-05-26:
 
 ## Public GitHub
 
-- [ ] Create public repo only after user approval.
-- [ ] Push source.
-- [ ] Verify GitHub Actions pass.
-- [ ] Add topics: `bitcoin`, `backtesting`, `trading-bot`, `overfitting`, `injective`, `ai-agent`, `erc-8004`, `joke`.
-- [ ] Create Release `v0.1.0`.
+- [x] Create public repo only after user approval.
+- [x] Push source.
+- [ ] Verify GitHub Actions pass. Current status: workflows are active, but GitHub did not create workflow runs from the initial pushes and workflow dispatch returned HTTP 500 during verification.
+- [x] Add topics: `bitcoin`, `backtesting`, `trading-bot`, `overfitting`, `injective`, `ai-agent`, `erc-8004`, `joke`.
+- [x] Create Release `v0.1.0`.
 
 ## Injective
 
-- [ ] Replace demo URL in Agent Card.
-- [ ] Replace GitHub URL in Agent Card.
+- [x] Replace demo URL in Agent Card.
+- [x] Replace GitHub URL in Agent Card.
 - [ ] Run `inj-agent register --dry-run`.
 - [ ] Register on testnet only after user approval.
 - [ ] Save agentId and scan URL.

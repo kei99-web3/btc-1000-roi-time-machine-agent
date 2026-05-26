@@ -15,9 +15,23 @@ Suggested identity:
 - Builder code: `btc-1000-roi`
 - Description: `A simulation-only joke agent that reaches 1000% ROI by openly using hindsight. Not financial advice.`
 - Services:
-  - GitHub repo URL
-  - Static demo URL
+  - GitHub repo URL: `https://github.com/kei99-web3/btc-1000-roi-time-machine-agent`
+  - Static demo URL: `https://raw.githack.com/kei99-web3/btc-1000-roi-time-machine-agent/main/index.html`
   - Optional MCP endpoint only if a hosted read-only/demo endpoint exists
+
+## User-side setup steps
+
+Codex should not handle wallet secrets or private keys. Use this sequence when the user is ready:
+
+1. Create or choose a testnet-only wallet.
+2. Fund it only with testnet funds from an official faucet.
+3. Install the current Injective Agent SDK/CLI from official Injective documentation.
+4. Save the Agent Card JSON somewhere publicly reachable, or use the public repo copy if the CLI accepts that URL.
+5. Run dry-run registration first.
+6. Review the dry-run output: name, description, URLs, chain, fees, and wallet address.
+7. Register on testnet only after explicitly confirming the dry-run result.
+8. Save the returned agent ID and scan URL.
+9. Do not run mainnet registration until the testnet identity has been inspected.
 
 ## Dry-run first
 
@@ -32,10 +46,12 @@ inj-agent register \
   --builder-code btc-1000-roi \
   --wallet 0xYourWallet \
   --description "Simulation-only joke agent. It gets 1000% ROI by reading historical BTC candles after the fact." \
-  --uri "https://your-demo-host/agent-card.json" \
+  --uri "https://raw.githubusercontent.com/kei99-web3/btc-1000-roi-time-machine-agent/main/agent-card/btc-1000-roi-time-machine-agent.card.json" \
   --dry-run \
   --json
 ```
+
+If the installed CLI uses different flags, map the same values into the current official schema. Keep `--dry-run` or the equivalent enabled for the first attempt.
 
 ## Mainnet rule
 
