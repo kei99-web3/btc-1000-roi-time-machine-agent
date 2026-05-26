@@ -1,4 +1,4 @@
-name: pages
+name: deploy-pages
 
 on:
   push:
