@@ -4,6 +4,26 @@ This project is a joke. Live trading is not the joke.
 
 The 1000% ROI result comes from historical hindsight. It cannot be used to predict the next candle. If you connect this repo to live trading infrastructure, you are no longer running the time-machine backtest. You are manually calling real trading tools.
 
+## Default state
+
+Live order execution is disabled by default.
+
+Cloning the repo only gives you:
+
+- The joke backtest.
+- Local tests.
+- A static visual demo.
+- A generic MCP bridge that refuses live tool calls until explicitly enabled.
+
+It does not give you:
+
+- An Injective wallet.
+- Faucet funds.
+- Private-key handling.
+- A configured Injective MCP server.
+- A working trading account.
+- Permission to place orders.
+
 ## What live mode does
 
 The repo includes a generic MCP bridge:

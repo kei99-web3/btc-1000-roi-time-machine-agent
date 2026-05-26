@@ -14,6 +14,13 @@ Completed locally on 2026-05-26:
 - README / docs caveat scan for hindsight, non-repeatability, and no-financial-advice wording
 - X review queue prepared but not posted or scheduled
 - User approved public repo creation and public GitHub Pages demo. X posting remains human-run.
+- Third-party smoke test from a fresh public Git clone passed: `npm ci`, `npm run typecheck`, `npm test`, and `npm run backtest`.
+
+Third-party capability boundary:
+
+- Works after clone: static demo, tests, and hindsight backtest.
+- Requires user setup: Injective testnet registration, Injective MCP, wallet/faucet/private-key handling, and live/testnet order execution.
+- Disabled by default: live MCP order calls.
 
 Known remaining placeholders:
 

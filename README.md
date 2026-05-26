@@ -52,6 +52,32 @@ In plain English:
 npm install
 ```
 
+## What works immediately after cloning
+
+Anyone can clone this repo and run the joke backtest:
+
+```bash
+git clone https://github.com/kei99-web3/btc-1000-roi-time-machine-agent.git
+cd btc-1000-roi-time-machine-agent
+npm ci
+npm run typecheck
+npm test
+npm run backtest
+```
+
+This works without a wallet, private key, API key, paid service, or Injective setup. The default backtest fetches public Binance BTCUSDT candles and reproduces the hindsight result when the same public data is available.
+
+## What needs your own setup
+
+These parts do not work out of the box because they require user-controlled external accounts or infrastructure:
+
+- Injective testnet registration.
+- Injective MCP server connection.
+- Wallet creation, faucet funding, private-key handling, or agent registration.
+- Any real or testnet order execution.
+
+Live-order tooling is disabled by default. A user must intentionally configure Injective MCP, provide their own wallet setup, set the explicit acknowledgement environment variable, and pass the CLI risk flag before any live MCP tool call is allowed.
+
 ## Run the joke backtest
 
 ```bash

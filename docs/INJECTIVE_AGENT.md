@@ -2,6 +2,8 @@
 
 Goal: register **BTC 1000%ROI Time-Machine Agent** as an on-chain joke AI agent identity.
 
+This does not work automatically after cloning. The repo contains the Agent Card draft and setup instructions only. The user must provide their own testnet wallet, official CLI/SDK setup, faucet funds, and explicit confirmation before any registration.
+
 ## Recommended first registration
 
 Use testnet first.
