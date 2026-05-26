@@ -21,6 +21,12 @@ Suggested identity:
   - Static demo URL: `https://raw.githack.com/kei99-web3/btc-1000-roi-time-machine-agent/main/index.html`
   - Optional MCP endpoint only if a hosted read-only/demo endpoint exists
 
+Registration URI:
+
+```text
+https://raw.githubusercontent.com/kei99-web3/btc-1000-roi-time-machine-agent/main/agent-card/btc-1000-roi-time-machine-agent.card.json
+```
+
 ## User-side setup steps
 
 Codex should not handle wallet secrets or private keys. Use this sequence when the user is ready:
@@ -53,7 +59,7 @@ inj-agent register \
   --json
 ```
 
-If the installed CLI uses different flags, map the same values into the current official schema. Keep `--dry-run` or the equivalent enabled for the first attempt.
+If the installed CLI rejects an HTTPS metadata URI, set `PINATA_JWT` in the CLI `.env` and register without `--uri` so the CLI can upload the generated card to IPFS. Keep `--dry-run` or the equivalent enabled for the first attempt.
 
 ## Mainnet rule
 

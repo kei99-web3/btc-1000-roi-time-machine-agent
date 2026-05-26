@@ -1,21 +1,22 @@
 {
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
   "name": "BTC 1000%ROI Time-Machine Agent",
-  "type": "other",
-  "builderCode": "btc-1000-roi",
   "description": "A simulation-only joke agent that reaches 1000% ROI by openly using hindsight over historical BTC data. It is not financial advice and does not claim repeatable live performance.",
+  "image": "",
   "services": [
     {
-      "type": "web",
-      "url": "https://raw.githack.com/kei99-web3/btc-1000-roi-time-machine-agent/main/index.html",
-      "description": "Visual demo explaining how the 1000% ROI is produced by future leakage."
-    },
-    {
-      "type": "github",
-      "url": "https://github.com/kei99-web3/btc-1000-roi-time-machine-agent",
-      "description": "Source code, README, and reproducible backtest."
+      "name": "web",
+      "endpoint": "https://raw.githack.com/kei99-web3/btc-1000-roi-time-machine-agent/main/index.html",
+      "version": "0.1.0"
     }
   ],
-  "x402": false,
-  "tags": ["bitcoin", "backtest", "overfit", "joke-agent", "injective", "erc-8004"],
+  "x402Support": false,
+  "active": true,
+  "supportedTrust": ["reputation"],
+  "tags": ["bitcoin", "backtest", "overfit", "joke", "injective"],
+  "version": "0.1.0",
+  "license": "MIT",
+  "sourceCode": "https://github.com/kei99-web3/btc-1000-roi-time-machine-agent",
+  "documentation": "https://github.com/kei99-web3/btc-1000-roi-time-machine-agent#readme",
   "disclaimer": "The backtest reads the full historical period before choosing positions. Live trading mode, if enabled by a user, is separate and can lose money."
 }
