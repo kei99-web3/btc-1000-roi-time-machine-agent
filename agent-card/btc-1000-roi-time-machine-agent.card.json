@@ -1,0 +1,21 @@
+{
+  "name": "BTC 1000%ROI Time-Machine Agent",
+  "type": "other",
+  "builderCode": "btc-1000-roi",
+  "description": "A simulation-only joke agent that reaches 1000% ROI by openly using hindsight over historical BTC data. It is not financial advice and does not claim repeatable live performance.",
+  "services": [
+    {
+      "type": "web",
+      "url": "https://kei99-web3.github.io/btc-1000-roi-time-machine-agent/",
+      "description": "Visual demo explaining how the 1000% ROI is produced by future leakage."
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/kei99-web3/btc-1000-roi-time-machine-agent",
+      "description": "Source code, README, and reproducible backtest."
+    }
+  ],
+  "x402": false,
+  "tags": ["bitcoin", "backtest", "overfit", "joke-agent", "injective", "erc-8004"],
+  "disclaimer": "The backtest reads the full historical period before choosing positions. Live trading mode, if enabled by a user, is separate and can lose money."
+}

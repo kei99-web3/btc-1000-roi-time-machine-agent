@@ -1,0 +1,31 @@
+{
+  "name": "btc-1000-roi-time-machine-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A joke BTC trading agent that reaches 1000% ROI by honestly using hindsight.",
+  "type": "module",
+  "scripts": {
+    "backtest": "tsx src/cli.ts backtest",
+    "live:tools": "tsx src/cli.ts live-tools",
+    "live:call": "tsx src/cli.ts live-call",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "keywords": [
+    "bitcoin",
+    "backtest",
+    "trading-bot",
+    "overfitting",
+    "injective",
+    "erc-8004",
+    "ai-agent",
+    "joke"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
