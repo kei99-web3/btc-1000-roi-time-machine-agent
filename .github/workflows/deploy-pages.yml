@@ -6,7 +6,7 @@ on:
     paths:
       - "docs/**"
       - "index.html"
-      - ".github/workflows/pages.yml"
+      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
   repository_dispatch:
     types: [deploy-pages]
