@@ -10,6 +10,18 @@ Use testnet first.
 
 Register as a simulation/data/joke agent rather than a serious trading agent until the public README, demo URL, and Agent Card are final.
 
+## Registered testnet identity
+
+Registered on 2026-05-26 JST.
+
+- Agent ID: `26`
+- Identity tuple: `eip155:1439:0x8004A818BFB912233c491871b3d84c89A494BD9e:26`
+- Registry view: <https://8004scan.io/agent/eip155:1439:0x8004A818BFB912233c491871b3d84c89A494BD9e:26>
+- Register tx: `0x9c4cc26e686999d5121dd05d20eb198e549221bf0b6460b3f509713c18a37614`
+- Wallet-link tx: `0xd154877614d31218b71be08af8c898c1567483a520618cef4e91d19bca6333bb`
+
+This is a testnet identity. It is not a mainnet deployment and does not imply live trading performance.
+
 Suggested identity:
 
 - Name: `BTC 1000%ROI Time-Machine Agent`

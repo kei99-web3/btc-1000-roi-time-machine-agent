@@ -46,9 +46,10 @@ The user must explicitly approve these external actions before Codex performs th
    - Status: user will run manually; Codex must not post or schedule.
 
 4. Injective testnet registration
-   - Requires a user-approved wallet/testnet setup.
-   - Current environment status: `INJECTIVE_MCP_COMMAND` / `INJECTIVE_MCP_ARGS` are not configured in this Codex process.
-   - Actions after approval and setup: configure Injective MCP/CLI path without exposing secrets, run dry-run first, then register on testnet only if separately approved.
+   - Completed on 2026-05-26 JST after user approval.
+   - Agent ID: `26`
+   - Registry view: <https://8004scan.io/agent/eip155:1439:0x8004A818BFB912233c491871b3d84c89A494BD9e:26>
+   - Live order testing remains separate and disabled.
 
 5. Live order testing
    - Not required for the joke release.

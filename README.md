@@ -130,6 +130,12 @@ agent-card/btc-1000-roi-time-machine-agent.card.json
 
 The recommended first on-chain step is a testnet registration of a simulation-only joke agent identity, not a mainnet trading deployment.
 
+Testnet identity:
+
+- Agent ID: `26`
+- Identity tuple: `eip155:1439:0x8004A818BFB912233c491871b3d84c89A494BD9e:26`
+- Registry view: <https://8004scan.io/agent/eip155:1439:0x8004A818BFB912233c491871b3d84c89A494BD9e:26>
+
 See [docs/INJECTIVE_AGENT.md](docs/INJECTIVE_AGENT.md).
 
 ## Why this exists
