@@ -134,7 +134,11 @@ Testnet identity:
 
 - Agent ID: `26`
 - Identity tuple: `eip155:1439:0x8004A818BFB912233c491871b3d84c89A494BD9e:26`
-- Registry view: <https://8004scan.io/agent/eip155:1439:0x8004A818BFB912233c491871b3d84c89A494BD9e:26>
+- Testnet registry contract: <https://testnet.blockscout.injective.network/address/0x8004A818BFB912233c491871b3d84c89A494BD9e>
+- Register tx: <https://testnet.blockscout.injective.network/tx/0x9c4cc26e686999d5121dd05d20eb198e549221bf0b6460b3f509713c18a37614>
+- Wallet-link tx: <https://testnet.blockscout.injective.network/tx/0xd154877614d31218b71be08af8c898c1567483a520618cef4e91d19bca6333bb>
+
+Note: `8004scan.io` currently indexes the Injective mainnet registry (`chainId 1776`). This agent was intentionally registered on Injective EVM testnet (`chainId 1439`), so use the Blockscout links above for public testnet evidence.
 
 See [docs/INJECTIVE_AGENT.md](docs/INJECTIVE_AGENT.md).
 

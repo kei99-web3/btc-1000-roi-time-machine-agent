@@ -48,7 +48,9 @@ The user must explicitly approve these external actions before Codex performs th
 4. Injective testnet registration
    - Completed on 2026-05-26 JST after user approval.
    - Agent ID: `26`
-   - Registry view: <https://8004scan.io/agent/eip155:1439:0x8004A818BFB912233c491871b3d84c89A494BD9e:26>
+   - Register tx: <https://testnet.blockscout.injective.network/tx/0x9c4cc26e686999d5121dd05d20eb198e549221bf0b6460b3f509713c18a37614>
+   - Wallet-link tx: <https://testnet.blockscout.injective.network/tx/0xd154877614d31218b71be08af8c898c1567483a520618cef4e91d19bca6333bb>
+   - 8004scan is not used as the screenshot URL for this testnet registration because it currently indexes Injective mainnet.
    - Live order testing remains separate and disabled.
 
 5. Live order testing
