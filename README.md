@@ -69,7 +69,7 @@ npm run backtest -- --start 2022-05-26 --end 2026-05-26 --interval 4h --target-m
 Public demo:
 
 ```text
-https://kei99-web3.github.io/btc-1000-roi-time-machine-agent/
+https://raw.githack.com/kei99-web3/btc-1000-roi-time-machine-agent/main/index.html
 ```
 
 Local demo:

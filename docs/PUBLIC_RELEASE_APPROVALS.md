@@ -30,8 +30,9 @@ The user must explicitly approve these external actions before Codex performs th
    - Status: approved by user.
 
 2. Public demo URL
-   - Proposed default: GitHub Pages from the public repo.
-   - Status: approved by user.
+   - Working URL: `https://raw.githack.com/kei99-web3/btc-1000-roi-time-machine-agent/main/index.html`
+   - GitHub Pages URL was configured, but the Pages build returned 404/errored during initial verification.
+   - Status: approved by user and working RawGitHack URL verified.
 
 3. X launch post
    - Proposed first choice: Post A in `channels/x_crypto/review_queue/2026-05-26_btc_1000_roi_time_machine_agent_launch.md`.

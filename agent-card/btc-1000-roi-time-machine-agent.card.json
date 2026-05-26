@@ -6,7 +6,7 @@
   "services": [
     {
       "type": "web",
-      "url": "https://kei99-web3.github.io/btc-1000-roi-time-machine-agent/",
+      "url": "https://raw.githack.com/kei99-web3/btc-1000-roi-time-machine-agent/main/index.html",
       "description": "Visual demo explaining how the 1000% ROI is produced by future leakage."
     },
     {
